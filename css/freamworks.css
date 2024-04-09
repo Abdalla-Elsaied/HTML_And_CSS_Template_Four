@@ -1,0 +1,359 @@
+:root {
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --grey-color: #888;
+}
+
+/* start box */
+.d-flex {
+    display: flex;
+}
+
+.d-flex-colum {
+    display: flex;
+    flex-direction: column;
+}
+
+.just-center {
+    justify-content: center;
+}
+
+.just-sbetween {
+    justify-content: space-between;
+}
+
+.aline-center {
+    align-items: center;
+}
+
+.space-b {
+    justify-content: space-between;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.d-block {
+    display: block;
+}
+
+@media (max-width:767px) {
+    .block-mobile {
+        display: block;
+    }
+}
+
+/* end box */
+
+/**********************************************************************************************************/
+
+/* start padding + margin */
+.p-10 {
+    padding: 10px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pl-30 {
+    padding-left: 30px;
+}
+
+.m-0 {
+    margin: 0px;
+}
+.m-15 {
+    margin: 15px;
+}
+
+
+.m-20 {
+    margin: 20px;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+.mt-15 {
+    margin-top: 15px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.mr-10{
+    margin-right: 10px;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+.mb-0{
+    margin-bottom: 0px;
+}
+.ml-20 {
+    margin-left: 20px;
+}
+
+
+
+
+/* end padding + margin */
+
+/* start color  */
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-eee {
+    background-color: #eee;
+}
+
+.bg-blue {
+    background-color: var(--blue-color);
+}
+
+.bg-orange {
+    background-color: var(--orange-color);
+}
+
+.bg-green {
+    background-color: var(--green-color);
+}
+.bg-red{
+    background-color: var(--red-color);
+}
+
+.bg-black {
+    background: black;
+}
+
+.c-black {
+    color: black;
+}
+
+.c-blue {
+    color: var(--blue-color);
+}
+
+.c-orange {
+    color: var(--orange-color);
+}
+
+.c-green {
+    color: var(--green-color);
+}
+
+.c-white {
+    color: white;
+}
+
+.c-gray {
+    color: gray;
+}
+
+.c-red {
+    color: var(--red-color);
+}
+
+/* end color */
+
+/**********************************************************************************************************/
+
+/*  start posation */
+
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+/* end posation */
+
+/**********************************************************************************************************/
+
+/* start font */
+.txt-c {
+    text-align: center;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+@media (max-width:767px) {
+    .text-cmobile {
+        text-align: center;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+}
+
+/* end font */
+
+/**********************************************************************************************************/
+
+/* start border */
+.rad-6 {
+    border-radius: 6px;
+}
+
+.rad-10 {
+    border-radius: 10px;
+}
+.rad-half{
+    border-radius: 50%;
+}
+
+.b-none {
+    border: none;
+}
+.b-ccc{
+    border: 1px solid #ccc;
+}
+/* end border */
+
+
+/* ************************************************************************ */
+
+/* start width & hight */
+.w-100 {
+    width: 100%;
+}
+
+.w-fit {
+    width: fit-content;
+}
+.h-full{
+    height: 100%;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+/* end width & hight */
+
+/* ************************************************************************ */
+
+/* start component */
+.between-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.evenly-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.center-cflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.betwen-cflex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.btn-shap {
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+.over-h {
+    overflow: hidden;
+}
+
+/* end component */
+
+/* ************************************************************************ */
